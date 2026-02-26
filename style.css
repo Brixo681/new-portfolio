@@ -104,6 +104,17 @@ a {
     background: #dff5f3;
 }
 /*hero section*/
+@media (max-width: 768px) {
+  .hero {
+    padding: 24px 16px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-text {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+}
 .hero {
     padding: 100px 0;
     background: linear-gradient(to bottom, #e8f7f6, #ffffff);
