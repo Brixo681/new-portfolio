@@ -226,5 +226,17 @@
     //small enhancement: current year
     document.getElementById('year').textContent = new Date().getFullYear();
 </script>
+    <script>
+  const btn = document.querySelector('.menu-toggle');
+  const nav = document.getElementById('primary-nav');
+
+  if (btn && nav){
+    btn.addEventListener('click', () => {
+      const open = nav.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+  }
+</script>
 </body>
 </html>
