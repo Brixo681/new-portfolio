@@ -29,12 +29,30 @@ a {
 /* header*/
 .site-header {
     background: white;
-    padding: 18px 24px;
+    padding: 12px 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 12px rgba(0,0,0,0.05);
 }
+
+.nav-links a{ margin:0 12px; text-decoration:none; }
+.menu-toggle{ display:none; font-size:28px; line-height:1; background:none; border:none; cursor:pointer; }
+
+/* Mobile layout */
+@media (max-width:768px){
+  .menu-toggle{ display:block; }
+
+  .nav-links{
+    position:absolute; left:0; right:0; top:60px;
+    display:none; flex-direction:column; gap:12px;
+    background:#fff; padding:12px 20px; border-top:1px solid #eee;
+  }
+  .nav-links.is-open{ display:flex; }
+
+  .nav-links a{ margin:0; padding:10px 0; }
+}
+
 .hearder-inner {
     display: flex;
     justify-content: space-between;
