@@ -40,7 +40,7 @@ a {
 .menu-toggle{ display:none; font-size:28px; line-height:1; background:none; border:none; cursor:pointer; }
 
 /* Mobile layout */
-@media (max-width:768px){
+@media (max-width:600px){
     .ring-md{
         width: 260px; height: 260px;
     }
@@ -119,12 +119,12 @@ a {
     background: #dff5f3;
 }
 /*hero section*/
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .hero {
     padding: 24px 16px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .hero-text {
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -414,7 +414,7 @@ textarea:focus {
 }
 
 /* responsive settings*/
-@media (max-width: 900px) {
+@media (max-width: 600px) {
 
     .hero-grid,
     .about-grid,
