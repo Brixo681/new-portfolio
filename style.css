@@ -119,12 +119,12 @@ a {
     background: #dff5f3;
 }
 /*hero section*/
-@media (max-width: 580px) {
+@media (max-width: 550px) {
   .hero {
     padding: 24px 16px;
   }
 }
-@media (max-width: 580px) {
+@media (max-width: 550px) {
   .hero-text {
     word-wrap: break-word;
     overflow-wrap: break-word;
