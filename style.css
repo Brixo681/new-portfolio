@@ -119,12 +119,12 @@ a {
     background: #dff5f3;
 }
 /*hero section*/
-@media (max-width: 600px) {
+@media (max-width: 580px) {
   .hero {
     padding: 24px 16px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 580px) {
   .hero-text {
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -149,8 +149,8 @@ a {
 }
 
 .hero-copy h1 {
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .lead {
@@ -191,7 +191,7 @@ a {
 /* Outer circular ring */
 /* ring (hero) */
 .photo-ring {
-    height: 420px;
+    height: 400px;
     border-radius: 50%;
     position: relative;
     background: conic-gradient(#1aa49c, #0d7a74, #1aa49c);
@@ -252,8 +252,8 @@ a {
 
 
 .ring-md {
-    width: 460px;
-    height: 460px;
+    width: 420px;
+    height: 420px;
     padding: 8px;
 }
 /* project section*/
@@ -375,7 +375,7 @@ a {
     margin-bottom: 25px;
 }
 
-@media (max-width:600px) {
+@media (max-width:580px) {
 .field.two {
     display: grid;
     grid-template-columns: 1fr;
