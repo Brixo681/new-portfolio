@@ -371,12 +371,12 @@ a {
     margin-bottom: 25px;
 }
 
+@media (max-width:600px) {
 .field.two {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
+    grid-template-columns: 1fr;
 }
-
+}
 label {
     font-weight: 600;
 }
